@@ -1,0 +1,7 @@
+ul {
+    list-style-type:upper-roman;
+    list-style-position: outside;
+    /* list-style-image: url("Logo.png"); */
+    margin: 0;
+    padding: 0;
+}
