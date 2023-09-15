@@ -1,0 +1,21 @@
+div {
+    width: 300px;
+    border: 2px solid red;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+span {
+    border: 2px solid green;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+img {
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+}

@@ -1,0 +1,32 @@
+.box {
+    border: 2px solid black;
+    margin: 20px 15px;
+    display: inline;
+    color: aqua;
+}
+#box-1 {
+    background-color: green;
+    /* position: static; 
+    top: 100px; */
+}
+#box-2 {
+    background-color: yellow;
+    position: relative;
+    /* top: 80px;
+    right: 50px; */
+    /* bottom: 5px; */
+}
+#box-3 {
+    background-color: blue;
+    /* position :absolute;
+    top: 50px; */
+}
+#box-4 {
+    background-color: red;
+    /* position: fixed; */
+    position: sticky;
+    top: 50px;
+}
+body {
+    height: 2000px;
+}
