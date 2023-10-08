@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping Statement</title>
+</head>
+
+<body>
+    <script>
+        //While loop
+        // let i=1;
+        // while(i<=20)
+        // {
+        //     if(i%2==0)
+        //     {
+        //         console.log("Even Number ",i);
+        //     }
+        //     i++;
+        // }
+
+        // do while loop
+        // let i=1;
+        // do {
+        //     console.log("Number is ",i);
+        //     i++;
+        // }
+        // while(i<=20);
+
+        // Code 2
+        // const student = ["Sanidhya","Tapas","Bibek","Sambit","Swadhin","Manoranjan"];
+        // let c=1,i=0;
+        // do{
+        //     console.log(c," Student is ",student[i]);
+        //     i++;
+        //     c++;
+        // }while(i<student.length)
+
+        // for loop
+        // Prime number program
+        // let num=3;
+        // let Prime = true;
+        // for(let i=2;i<=33/2;i++)
+        // {
+        //     if(num%i==0)
+        //     {
+        //         Prime=false;
+        //     }
+        // }
+        // if(Prime)
+        // {
+        //     console.log(num," is prime");
+        // }
+        // else
+        // {
+        //     console.log(num," is not prime");
+        // }
+
+        // for of loop (it return value of any iterable or sequence)
+        const student = ["Sanidhya", "Tapas", "Bibek", "Sambit", "Swadhin", "Manoranjan"];
+        // for (let i of student) {
+        //     console.log(i);
+        // }
+
+        // for in loop (it return index of any iterable or sequence)
+        for (let i in student) {
+            // console.log(i);  // index
+            console.log(student[i]); // arrayName[index] = value
+        }
+    </script>
+</body>
+
+</html>

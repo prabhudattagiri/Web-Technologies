@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <style>
+        body{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Web Technologies</h1>
+    <p class="bca">To learn fundamental  of web design</p>
+    <p class="bca">To learn fundamental  of web design</p>
+    <div id="unit-1">HTML</div>
+    <div id="unit-2">CSS</div>
+    <div id="unit-3">JS</div>
+    <div id="unit-4">PHP</div>
+    <!-- Javascript written here -->
+    <script>
+        // getElementById
+        // let first = document.getElementById('unit-1');
+        // console.log(first);
+        // first.innerText="Rudra";
+
+        // document.getElementById('unit-2').innerText="Anisha";
+
+        // getElementsByClassName
+        // let finalYr=document.getElementsByClassName('bca');
+        // console.log(finalYr);
+        // finalYr[1].innerText="This the list of first line student";
+
+        //getElementsByTagName
+        let unit = document.getElementsByTagName("div");
+        unit[2].innerText="Tapas";
+    </script>
+</body>
+</html>
